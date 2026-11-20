@@ -1,11 +1,17 @@
-# Ignore extracted/debug images and scratch files
+# Windows local batch helper scripts (keep local, don't upload to GitHub)
+*.bat
+
+# Documentation & helper scripts for local use only
+PANDUAN_*.md
+check_assets.py
+
+# Temporary & debug files
 extracted_images/
 *debug*.png
 *scratch*.png
 *context*.png
-check_assets.py
 
-# System & Editor files
+# System & OS metadata
 .DS_Store
 Thumbs.db
 .vscode/
