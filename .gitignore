@@ -1,0 +1,12 @@
+# Ignore extracted/debug images and scratch files
+extracted_images/
+*debug*.png
+*scratch*.png
+*context*.png
+check_assets.py
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

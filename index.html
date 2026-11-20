@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siti Najwa Maqbullah Ardiansyah — Social Media Specialist Portfolio 2026</title>
+  <meta name="description" content="Portfolio Website Siti Najwa Maqbullah Ardiansyah - Social Media Specialist & Content Creator 2026. Experience in Content Marketing, Reels, Brand Collaborations, and Community Engagement.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#9A7B38',
+              dark: '#141416',
+              dkv: '#EA580C',
+              tiktok: '#B91C1C',
+              bagirasa: '#4C1D95',
+              somestory: '#D97706',
+              hagia: '#0284C7',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            script: ['"Caveat"', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#FCFCFB] text-stone-900 antialiased selection:bg-[#9A7B38] selection:text-white">
+
+  <!-- ================= TOP NAVIGATION (CLEAN CONSOLIDATED NAVBAR) ================= -->
+  <header class="sticky top-0 z-50 bg-[#FCFCFB]/90 backdrop-blur-md border-b border-stone-200/70 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center font-extrabold text-lg tracking-wider shadow-md group-hover:scale-105 transition-transform">
+          N
+        </div>
+        <div>
+          <span class="block text-sm font-extrabold tracking-widest uppercase text-stone-900 leading-none">NAJWA</span>
+          <span class="font-script text-xs text-[#9A7B38] font-bold">portfolio 2026</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links: DKV, TikTok, Bagirasa, Internships nested under Projects -->
+      <nav class="hidden md:flex items-center space-x-8 text-xs uppercase tracking-wider font-semibold text-stone-600">
+        <a href="#about" class="nav-link hover:text-black py-2 transition-colors">About</a>
+        
+        <!-- Projects Dropdown Menu -->
+        <div class="relative group">
+          <a href="#notable-projects" class="nav-link group-hover:text-black py-2 flex items-center gap-1.5 transition-colors cursor-pointer">
+            <span>Projects</span>
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180 text-stone-400 group-hover:text-black"></i>
+          </a>
+          
+          <!-- Dropdown Popup -->
+          <div class="absolute top-full -left-4 mt-1 w-64 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-stone-200 py-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <a href="#notable-projects" class="flex items-center gap-3 px-4 py-2.5 text-stone-800 hover:text-black hover:bg-stone-50 font-bold text-xs uppercase tracking-wider transition-colors">
+              <i data-lucide="layout-grid" class="w-4 h-4 text-stone-500"></i>
+              <span>All Notable Projects</span>
+            </a>
+            <div class="h-px bg-stone-100 my-1.5 mx-3"></div>
+            <a href="#project-dkv" class="flex items-center gap-3 px-4 py-2 text-stone-700 hover:text-black hover:bg-orange-50/60 font-semibold text-xs tracking-normal transition-colors">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#EA580C]"></span>
+              <span>DKV Budi Luhur</span>
+            </a>
+            <a href="#project-tiktok" class="flex items-center gap-3 px-4 py-2 text-stone-700 hover:text-black hover:bg-red-50/60 font-semibold text-xs tracking-normal transition-colors">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#B91C1C]"></span>
+              <span>TikTok (@naccuwwa)</span>
+            </a>
+            <a href="#project-bagirasa" class="flex items-center gap-3 px-4 py-2 text-stone-700 hover:text-black hover:bg-purple-50/60 font-semibold text-xs tracking-normal transition-colors">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#4C1D95]"></span>
+              <span>Bagirasa Community</span>
+            </a>
+            <a href="#internships" class="flex items-center gap-3 px-4 py-2 text-stone-700 hover:text-black hover:bg-amber-50/60 font-semibold text-xs tracking-normal transition-colors">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#D97706]"></span>
+              <span>Internships (Somestory & Hagia)</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="#brand-collaborations" class="nav-link hover:text-black py-2 transition-colors">Brand Collab</a>
+        <a href="#contact" class="nav-link hover:text-black py-2 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="https://wa.me/6281219807779?text=Halo%20Najwa,%20saya%20melihat%20portfolio%20web%20kamu%20dan%20tertarik%20untuk%20bekerjasama" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 bg-black hover:bg-stone-800 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full shadow hover:shadow-lg transition-all duration-200">
+          <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+          <span>Let's Talk</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-stone-700 hover:text-black focus:outline-none" aria-label="Toggle Menu">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white/95 border-b border-stone-200 px-6 py-5 shadow-xl">
+      <nav class="flex flex-col space-y-4 text-sm font-semibold uppercase tracking-wider text-stone-700">
+        <a href="#about" class="hover:text-black">About Me</a>
+        
+        <div class="pt-1 pb-1 border-y border-stone-100">
+          <a href="#notable-projects" class="font-extrabold text-black block mb-2">Projects</a>
+          <div class="pl-4 space-y-2 text-xs normal-case font-medium text-stone-600">
+            <a href="#project-dkv" class="block hover:text-black">• DKV Budi Luhur</a>
+            <a href="#project-tiktok" class="block hover:text-black">• TikTok (@naccuwwa)</a>
+            <a href="#project-bagirasa" class="block hover:text-black">• Bagirasa Community</a>
+            <a href="#internships" class="block hover:text-black">• Internships (Somestory & Hagia)</a>
+          </div>
+        </div>
+
+        <a href="#brand-collaborations" class="hover:text-black">Brand Collaborations</a>
+        <a href="#contact" class="hover:text-black">Contact Me</a>
+      </nav>
+      <div class="mt-6 pt-5 border-t border-stone-200 flex flex-col gap-3">
+        <a href="https://wa.me/6281219807779?text=Halo%20Najwa,%20saya%20tertarik%20bekerjasama" target="_blank" 
+           class="w-full text-center bg-black text-white text-xs font-bold uppercase tracking-wider py-3 rounded-full flex items-center justify-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+          WhatsApp Me
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================= HERO SECTION (Page 1 - BALANCED, PROPORTIONAL) ================= -->
+  <section id="hero" class="relative overflow-hidden pt-3 pb-16 sm:pb-20 lg:pb-24 border-b border-stone-200 paper-texture">
+    <!-- Top Tags Mirroring PDF Page 1 -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-3 sm:mb-4 relative">
+      <div class="flex flex-wrap items-center justify-center sm:justify-between text-[11px] sm:text-xs font-extrabold uppercase tracking-[0.25em] text-stone-500 gap-4 border-b border-stone-200/80 pb-2.5">
+        <span class="hover:text-black transition-colors">MARKETING</span>
+        <span class="hidden sm:inline text-stone-300">•</span>
+        <span class="hover:text-black transition-colors">CONTENT CREATOR</span>
+        <span class="hidden sm:inline text-stone-300">•</span>
+        <span class="hover:text-black transition-colors">BRAND</span>
+        <span class="hidden sm:inline text-stone-300">•</span>
+        <span class="hover:text-black transition-colors">EDITING</span>
+      </div>
+
+      <!-- Hanging Lanyard Asset: Sesuai Garis Lurus Ungu (Gantung tepat dari garis horizontal batas tags) -->
+      <div class="hidden lg:block absolute top-[33px] right-2 sm:right-4 lg:right-4 xl:right-8 w-20 xl:w-24 z-30 pointer-events-none animate-soft-float">
+        <img src="assets/common/lanyard-clip.png" alt="Lanyard ID Clip" class="w-full h-auto opacity-95 drop-shadow-md">
+      </div>
+    </div>
+
+    <!-- Main Hero Composition -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-4 items-end">
+        
+        <!-- Left: Najwa Cutout + Left Polaroid -->
+        <div class="lg:col-span-5 xl:col-span-5 relative flex items-end justify-center lg:justify-end pr-0 lg:pr-2">
+          
+          <!-- Left Polaroid (fashion & visual) -->
+          <div class="absolute left-6 sm:left-10 lg:left-6 xl:left-8 bottom-8 sm:bottom-10 lg:bottom-10 z-30 w-36 sm:w-42 lg:w-44 polaroid-card -rotate-6 transform hover:z-40 hover:scale-105 transition-all duration-300 shadow-xl">
+            <div class="overflow-hidden rounded bg-stone-100 aspect-square">
+              <img src="assets/hero/polaroid-garden.jpg" alt="Najwa Portrait" class="w-full h-full object-cover">
+            </div>
+            <div class="pt-2 text-center">
+              <span class="font-script text-stone-600 text-xs sm:text-sm font-bold">fashion & visual</span>
+            </div>
+          </div>
+
+          <!-- Najwa Cutout (Cover Awal Diperbesar Sedikit) -->
+          <div class="relative z-20 flex items-end justify-center lg:translate-x-4 xl:translate-x-6">
+            <img src="assets/hero/najwa-hero-cutout.png" alt="Siti Najwa Maqbullah Ardiansyah" 
+                 class="h-[370px] sm:h-[450px] lg:h-[500px] xl:h-[540px] w-auto max-w-none object-contain drop-shadow-2xl block align-bottom">
+          </div>
+
+          <!-- Decorative subtle circle ring behind -->
+          <div class="absolute w-64 sm:w-80 h-64 sm:h-80 rounded-full border border-stone-300/50 -z-10 pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+
+        <!-- Right: Bold Typography & Details + Right Polaroid -->
+        <div class="lg:col-span-7 xl:col-span-7 flex flex-col justify-end items-center lg:items-start text-center lg:text-left relative z-20 pb-2 sm:pb-4 lg:pb-4 pl-0 lg:pl-6 xl:pl-10">
+          
+          <!-- Teks Headline, Badge & Tombol -->
+          <div class="relative z-10 lg:-translate-y-12 xl:-translate-y-14 lg:translate-x-4 xl:translate-x-8">
+            <!-- Main Bold Headline -->
+            <div class="relative mb-1">
+              <h1 class="text-3xl sm:text-5xl xl:text-6xl font-[900] tracking-tight uppercase leading-[0.92] text-[#18181B]">
+                SOCIAL MEDIA<br>SPECIALIST
+              </h1>
+              <!-- Handwritten script overlay -->
+              <div class="relative -mt-3 sm:-mt-5 lg:-mt-7 flex items-baseline justify-center lg:justify-start gap-4">
+                <span class="font-script text-4xl sm:text-6xl lg:text-7xl text-[#9A7B38] font-bold drop-shadow-sm select-none">
+                  portfolio
+                </span>
+                <span class="text-2xl sm:text-4xl font-[900] text-stone-800 tracking-tighter">
+                  2026
+                </span>
+              </div>
+            </div>
+
+            <!-- Name Pill -->
+            <div class="mt-2 mb-3">
+              <span class="badge-pill-black text-[11px] sm:text-xs py-1.5 px-5">
+                SITI NAJWA MAQBULLAH ARDIANSYAH
+              </span>
+            </div>
+
+            <p class="text-stone-600 text-xs sm:text-sm max-w-md mb-4 leading-relaxed">
+              Passionate in Visual Communication, Content Strategy, Brand Campaigns, and TikTok/Instagram Growth. Majoring in Visual Communication Design with proven engagement results.
+            </p>
+
+            <!-- Quick Action Buttons -->
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 w-full sm:w-auto mb-2">
+              <a href="#notable-projects" class="bg-black hover:bg-stone-800 text-white text-[11px] sm:text-xs uppercase tracking-wider font-bold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all">
+                Explore Projects
+              </a>
+              <a href="#about" class="bg-white hover:bg-stone-100 text-stone-900 border border-stone-300 text-[11px] sm:text-xs uppercase tracking-wider font-bold px-6 py-3 rounded-full transition-all">
+                About Najwa
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Polaroid (coffee & content vibe) -->
+          <div class="mt-4 lg:mt-0 lg:absolute lg:right-2 xl:right-4 lg:bottom-4 xl:bottom-6 w-40 sm:w-46 lg:w-48 xl:w-52 polaroid-card rotate-3 transform hover:z-30 hover:scale-105 transition-all duration-300 shadow-xl">
+            <div class="overflow-hidden rounded bg-stone-100 aspect-[4/3]">
+              <img src="assets/hero/polaroid-cafe.jpg" alt="Najwa Cafe" class="w-full h-full object-cover">
+            </div>
+            <div class="pt-2 text-center">
+              <span class="font-script text-stone-600 text-xs sm:text-sm font-bold">coffee & content vibe</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= ABOUT ME & CLIPBOARD SECTION (Page 2) ================= -->
+  <section id="about" class="py-16 lg:py-24 bg-white border-b border-stone-200 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        
+        <!-- Left Side: Hi there! I'M NAJWA + Bio + Education & Achievement Grid -->
+        <div class="lg:col-span-7 space-y-8">
+          
+          <!-- Heading -->
+          <div>
+            <span class="font-script text-4xl sm:text-5xl text-[#9A7B38] font-bold block mb-1">
+              Hi there!
+            </span>
+            <h2 class="text-4xl sm:text-5xl font-[900] tracking-tight uppercase leading-none text-[#18181B]">
+              I'M NAJWA
+            </h2>
+          </div>
+
+          <!-- Intro Paragraph -->
+          <div class="space-y-4 text-stone-700 text-sm sm:text-base leading-relaxed">
+            <p>
+              I graduated from a <strong class="text-black">Multimedia Vocational High School</strong> and am currently pursuing a <strong class="text-black">Bachelor's degree in Visual Communication Design</strong>, majoring in Graphic Design.
+            </p>
+            <p>
+              I’m passionate about visual content and have experience in <span class="bg-stone-100 px-2 py-0.5 rounded font-semibold text-black">content strategy</span>, <span class="bg-stone-100 px-2 py-0.5 rounded font-semibold text-black">advertising</span>, <span class="bg-stone-100 px-2 py-0.5 rounded font-semibold text-black">social media account management</span>, and <span class="bg-stone-100 px-2 py-0.5 rounded font-semibold text-black">video editing</span>.
+            </p>
+          </div>
+
+          <!-- 3-Column Info: Education, Achievement, Personal Skills -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4 border-t border-stone-200">
+            
+            <!-- Education -->
+            <div>
+              <div class="mb-3">
+                <span class="badge-pill-black text-[10px] py-1 px-3">EDUCATION</span>
+              </div>
+              <ul class="space-y-3 text-xs sm:text-sm text-stone-700">
+                <li>
+                  <span class="text-stone-400 font-semibold text-[11px] block">• 2023 - 2027</span>
+                  <strong class="text-black block text-sm">Budi Luhur University</strong>
+                  <span class="text-stone-500">Visual Communication Design</span>
+                </li>
+                <li>
+                  <span class="text-stone-400 font-semibold text-[11px] block">• 2020 - 2023</span>
+                  <strong class="text-black block text-sm">Prima Unggul High School</strong>
+                  <span class="text-stone-500">Multimedia</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Achievement -->
+            <div>
+              <div class="mb-3">
+                <span class="badge-pill-black text-[10px] py-1 px-3">ACHIEVEMENT</span>
+              </div>
+              <ul class="space-y-3 text-xs sm:text-sm text-stone-700">
+                <li>
+                  <span class="text-stone-400 font-semibold text-[11px] block">• 2025</span>
+                  <strong class="text-black block text-sm">Podcast Somestory</strong>
+                  <span class="text-stone-500">Head Media Communication</span>
+                </li>
+                <li>
+                  <span class="text-stone-400 font-semibold text-[11px] block">• 2025 - Now</span>
+                  <strong class="text-black block text-sm">Bagirasa</strong>
+                  <span class="text-stone-500">Social Media Specialist</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Personal Skills -->
+            <div>
+              <div class="mb-3">
+                <span class="badge-pill-black text-[10px] py-1 px-3">PERSONAL SKILLS</span>
+              </div>
+              <ul class="space-y-2 text-xs sm:text-sm text-stone-700 font-medium">
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-black"></span> Communication
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-black"></span> Responsiveness
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-black"></span> Organization
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-black"></span> Content Ideation
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-black"></span> Video Production & Edit
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Contact Snippet -->
+          <div class="pt-4 flex flex-wrap items-center gap-4 bg-stone-50 p-4 rounded-2xl border border-stone-200">
+            <span class="badge-pill-black text-[10px] py-1 px-3">CONTACT</span>
+            <div class="text-xs sm:text-sm flex flex-wrap gap-x-6 gap-y-1">
+              <a href="mailto:najwamaqbullah2005@gmail.com" class="font-medium hover:underline text-stone-800 flex items-center gap-1.5">
+                <i data-lucide="mail" class="w-3.5 h-3.5 text-stone-500"></i> najwamaqbullah2005@gmail.com
+              </a>
+              <a href="https://wa.me/6281219807779" target="_blank" class="font-medium hover:underline text-stone-800 flex items-center gap-1.5">
+                <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i> 0812-1980-7779
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Side: The Iconic Clipboard Motif -->
+        <div class="lg:col-span-5 flex justify-center pt-8 lg:pt-4">
+          <div class="relative w-full max-w-sm">
+            
+            <!-- Authentic Silver Metal Clamp Clip at top edge -->
+            <div class="absolute -top-10 sm:-top-12 left-1/2 -translate-x-1/2 w-28 sm:w-36 drop-shadow-md z-30 pointer-events-none">
+              <img src="assets/about/real-metal-clip.png" alt="Metal Clip" class="w-full h-auto">
+            </div>
+
+            <!-- Realistic Clipboard Hanging Paper Card -->
+            <div class="bg-[#EFF2ED] rounded-3xl pt-14 sm:pt-16 pb-8 px-6 sm:px-8 shadow-xl border border-stone-300/80 relative z-10">
+              
+              <!-- Header Pill -->
+              <div class="text-center mb-6">
+                <span class="badge-pill-black text-xs py-1.5 px-6">
+                  EXPERIENCE
+                </span>
+              </div>
+
+              <!-- Experience Items (Fully Visible and Unobstructed) -->
+              <div class="space-y-4">
+                
+                <!-- 1. Lab Assistant DKV -->
+                <div class="flex items-center gap-4 p-3.5 rounded-2xl bg-white shadow-sm border border-stone-200/70 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 flex-shrink-0 rounded-full overflow-hidden bg-white p-1 border border-stone-200 shadow-sm flex items-center justify-center">
+                    <img src="assets/logos/budi-luhur.png" alt="DKV Budi Luhur" class="w-9 h-9 object-contain">
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold text-stone-500 block">• 2023 - 2026</span>
+                    <h4 class="font-extrabold text-sm text-stone-900 leading-tight">Lab Assistant DKV</h4>
+                    <p class="text-xs text-stone-600 font-medium">Social Media Specialist</p>
+                  </div>
+                </div>
+
+                <!-- 2. Personal Account (TikTok) -->
+                <div class="flex items-center gap-4 p-3.5 rounded-2xl bg-white shadow-sm border border-stone-200/70 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 flex-shrink-0 rounded-full overflow-hidden bg-red-600 border border-stone-200 shadow-sm flex items-center justify-center">
+                    <img src="assets/about/najwa-tiktok-avatar.png" alt="TikTok Avatar" class="w-full h-full object-cover">
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold text-stone-500 block">• 2025 - Now</span>
+                    <h4 class="font-extrabold text-sm text-stone-900 leading-tight">Personal Account</h4>
+                    <p class="text-xs text-stone-600 font-medium">Social Media Specialist (@naccuwwa)</p>
+                  </div>
+                </div>
+
+                <!-- 3. Hosell Agency -->
+                <div class="flex items-center gap-4 p-3.5 rounded-2xl bg-white shadow-sm border border-stone-200/70 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 flex-shrink-0 rounded-full overflow-hidden bg-[#E2543B] text-white font-extrabold text-[11px] flex items-center justify-center shadow-sm">
+                    Hosell
+                  </div>
+                  <div>
+                    <span class="text-[11px] font-bold text-stone-500 block">• 2026</span>
+                    <h4 class="font-extrabold text-sm text-stone-900 leading-tight">Hosell Agency</h4>
+                    <p class="text-xs text-stone-600 font-medium">Content Creator & Marketing</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Aesthetic paper footer detail -->
+              <div class="mt-6 pt-4 text-center border-t border-stone-300/60">
+                <span class="font-script text-stone-500 text-base font-bold">verified track record ✦ 2026</span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= NOTABLE PROJECTS OVERVIEW (Page 3 & 4) ================= -->
+  <section id="notable-projects" class="py-16 lg:py-24 bg-[#FCFCFB] border-b border-stone-200 paper-texture">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header with clean baseline alignment -->
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="badge-pill-black text-[11px] py-1.5 px-4 mb-3 inline-block">PORTFOLIO HIGHLIGHTS</span>
+          <h2 class="text-4xl sm:text-5xl font-[900] tracking-tight uppercase leading-none text-[#18181B]">
+            NOTABLE PROJECTS
+          </h2>
+        </div>
+        <p class="text-stone-500 text-xs sm:text-sm max-w-md">
+          Strategic social media campaigns across visual communication, influencer marketing, viral trends, and charity community engagement.
+        </p>
+      </div>
+
+      <!-- 4 Cards Grid - Equal Height & Horizontal Baseline Alignment -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- Project 1 Card: DKV Budi Luhur University -->
+        <a href="#project-dkv" class="group flex flex-col h-full bg-[#E9EBE8] hover:bg-[#E3E6E2] rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-xl border border-stone-300/80 relative">
+          <!-- Top Card Header -->
+          <div class="flex items-center justify-between border-b border-stone-300/70 pb-4 mb-6">
+            <div>
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-stone-400 block">CASE STUDY 01</span>
+              <h3 class="text-xl sm:text-2xl font-[900] uppercase text-stone-900 tracking-tight leading-tight">
+                CONTENT MARKETING STRATEGY
+              </h3>
+              <p class="text-xs font-bold text-stone-500 tracking-wide">— DKV BUDI LUHUR UNIVERSITY</p>
+            </div>
+            <div class="w-12 h-12 rounded-full bg-white p-1.5 shadow-sm flex items-center justify-center flex-shrink-0">
+              <img src="assets/logos/budi-luhur.png" alt="DKV Logo" class="w-8 h-8 object-contain">
+            </div>
+          </div>
+
+          <!-- Middle Content (flex-1 ensures bottom alignment) -->
+          <div class="space-y-6 flex-1">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="eye" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">VISUAL COMMUNICATION</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  A strategy focused on delivering messages through creative, engaging, and consistent content.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="trending-up" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">TREND BASED</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  Visual content inspired by trending comedy and relatable everyday life situations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Card Footer (Horizontally Aligned) -->
+          <div class="mt-8 pt-4 border-t border-stone-300/50 flex items-center justify-between text-xs font-bold text-stone-800">
+            <span>View Full Case Study</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </a>
+
+        <!-- Project 2 Card: Personal Account (TikTok) -->
+        <a href="#project-tiktok" class="group flex flex-col h-full bg-[#E9EBE8] hover:bg-[#E3E6E2] rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-xl border border-stone-300/80 relative">
+          <!-- Top Card Header -->
+          <div class="flex items-center justify-between border-b border-stone-300/70 pb-4 mb-6">
+            <div>
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-stone-400 block">CASE STUDY 02</span>
+              <h3 class="text-xl sm:text-2xl font-[900] uppercase text-stone-900 tracking-tight leading-tight">
+                PROMOTIONAL STRATEGY
+              </h3>
+              <p class="text-xs font-bold text-stone-500 tracking-wide">— PERSONAL ACCOUNT (TIKTOK)</p>
+            </div>
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-red-600 p-0.5 shadow-sm flex items-center justify-center flex-shrink-0">
+              <img src="assets/about/najwa-tiktok-avatar.png" alt="TikTok" class="w-full h-full object-cover">
+            </div>
+          </div>
+
+          <!-- Middle Content (flex-1 ensures bottom alignment) -->
+          <div class="space-y-6 flex-1">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="tag" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">PROMOTIONAL</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  A strategy used to promote brands, products, and services effectively.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="users" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">AUDIENCE – CENTERED</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  Created based on the audience's needs, interests, and behavior patterns.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Card Footer (Horizontally Aligned) -->
+          <div class="mt-8 pt-4 border-t border-stone-300/50 flex items-center justify-between text-xs font-bold text-stone-800">
+            <span>View Full Case Study</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </a>
+
+        <!-- Project 3 Card: Bagirasa -->
+        <a href="#project-bagirasa" class="group flex flex-col h-full bg-[#E9EBE8] hover:bg-[#E3E6E2] rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-xl border border-stone-300/80 relative">
+          <!-- Top Card Header -->
+          <div class="flex items-center justify-between border-b border-stone-300/70 pb-4 mb-6">
+            <div>
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-stone-400 block">CASE STUDY 03</span>
+              <h3 class="text-xl sm:text-2xl font-[900] uppercase text-stone-900 tracking-tight leading-tight">
+                COMUNITY ENGAGEMENT
+              </h3>
+              <p class="text-xs font-bold text-stone-500 tracking-wide">— BAGIRASA</p>
+            </div>
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-purple-900 shadow-sm flex items-center justify-center flex-shrink-0 p-1">
+              <img src="assets/logos/bagirasa.png" alt="Bagirasa Logo" class="w-8 h-8 object-contain">
+            </div>
+          </div>
+
+          <!-- Middle Content (flex-1 ensures bottom alignment) -->
+          <div class="space-y-6 flex-1">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="heart" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">COMUNITY</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  Content that fosters a sense of community by building connections through audience interaction and participation.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="message-square" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">ENGAGEMENT</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  Focused on increasing engagement through interactions such as likes, comments, and shares.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Card Footer (Horizontally Aligned) -->
+          <div class="mt-8 pt-4 border-t border-stone-300/50 flex items-center justify-between text-xs font-bold text-stone-800">
+            <span>View Full Case Study</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </a>
+
+        <!-- Project 4 Card: Hosell Agency -->
+        <a href="#brand-collaborations" class="group flex flex-col h-full bg-[#E9EBE8] hover:bg-[#E3E6E2] rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-xl border border-stone-300/80 relative">
+          <!-- Top Card Header -->
+          <div class="flex items-center justify-between border-b border-stone-300/70 pb-4 mb-6">
+            <div>
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-stone-400 block">COLLABORATION</span>
+              <h3 class="text-xl sm:text-2xl font-[900] uppercase text-stone-900 tracking-tight leading-tight">
+                PROMOTIONAL STRATEGY
+              </h3>
+              <p class="text-xs font-bold text-stone-500 tracking-wide">— HOSELL AGENCY</p>
+            </div>
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-[#E2543B] text-white font-extrabold text-[11px] flex items-center justify-center shadow-sm flex-shrink-0">
+              Hosell
+            </div>
+          </div>
+
+          <!-- Middle Content (flex-1 ensures bottom alignment) -->
+          <div class="space-y-6 flex-1">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="megaphone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">PROMOTIONAL</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  A strategy used to promote brands, products, and services effectively.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center flex-shrink-0 text-stone-800">
+                <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-xs font-black uppercase tracking-wider text-stone-900 mb-1">CONTENT MARKETING</h4>
+                <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                  Content as a medium for promotion that is informative, educational, or entertaining.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Card Footer (Horizontally Aligned) -->
+          <div class="mt-8 pt-4 border-t border-stone-300/50 flex items-center justify-between text-xs font-bold text-stone-800">
+            <span>Explore Brand Collabs</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CASE STUDY 01: DKV BUDI LUHUR UNIVERSITY (Page 5 & 6) ================= -->
+  <section id="project-dkv" class="py-16 lg:py-24 bg-white border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Section Banner mirroring PDF Page 5 -->
+      <div class="bg-[#EA580C] text-white rounded-3xl p-6 sm:p-10 mb-12 shadow-lg relative overflow-hidden">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 relative z-10">
+          <div class="flex items-center gap-4">
+            <span class="text-5xl sm:text-7xl font-[900] tracking-tighter opacity-80 italic">01</span>
+            <div>
+              <h2 class="text-2xl sm:text-4xl font-[900] tracking-tight uppercase leading-tight">
+                Content Marketing Strategy
+              </h2>
+              <p class="text-orange-100 text-xs sm:text-sm font-semibold tracking-wider uppercase mt-1">
+                Visual Communication & Trend Based
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 bg-white text-stone-900 px-5 py-2.5 rounded-full shadow-md font-bold text-xs uppercase tracking-wider">
+            <img src="assets/logos/budi-luhur.png" alt="Budi Luhur" class="w-6 h-6 object-contain">
+            <span>DKV BUDI LUHUR UNIVERSITY</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description & Results Grid (Page 5) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
+        
+        <!-- Left: Text description & Instagram Account badge -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="border-l-4 border-[#EA580C] pl-4">
+            <h3 class="text-lg font-black uppercase text-stone-900 tracking-wide">DKV BUDI LUHUR UNIVERSITY</h3>
+            <p class="text-xs text-stone-500 font-semibold">Visual Communication & Trend Based</p>
+          </div>
+
+          <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+            The DKV Program at Universitas Budi Luhur combines creative concepts and modern technical design skills through three specializations: <strong class="text-stone-900">Graphic Design</strong>, <strong class="text-stone-900">Interactive Animation</strong>, and <strong class="text-stone-900">Cinematography</strong>, preparing students to innovate and adapt in the creative industry.
+          </p>
+
+          <!-- Instagram Handle & QR Code -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-orange-50 border border-orange-200">
+            <div class="w-16 h-16 rounded-xl bg-white p-1 border border-orange-200 shadow-sm flex items-center justify-center">
+              <img src="assets/projects/dkv/qr-code.png" alt="DKV QR Code" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <span class="text-[11px] font-bold text-orange-800 uppercase block">Official Instagram</span>
+              <a href="https://instagram.com/dkv.budiluhur" target="_blank" class="font-extrabold text-base text-stone-900 hover:text-[#EA580C] flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-pink-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                @dkv.budiluhur
+              </a>
+              <span class="text-xs text-stone-500">839 posts • 2,154 followers</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 4 Result Boxes (Stat Counter) -->
+        <div class="lg:col-span-6 stat-trigger">
+          <div class="mb-4">
+            <span class="inline-block bg-[#16A34A] text-white text-xs font-extrabold uppercase px-4 py-1 rounded-full shadow-sm">
+              Result
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            
+            <!-- Stat 1: 265K Views -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="265" data-suffix="K">
+                  265K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Views</p>
+            </div>
+
+            <!-- Stat 2: 9K Reached -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="9" data-suffix="K">
+                  9K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Reached</p>
+            </div>
+
+            <!-- Stat 3: 4K Interactions -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="4" data-suffix="K">
+                  4K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Interactions</p>
+            </div>
+
+            <!-- Stat 4: 2.1K Followers -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="2.1" data-suffix="K">
+                  2.1K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Followers</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Phone Mockups & Role Description (Page 6) -->
+      <div class="bg-[#FFF8F5] rounded-3xl p-6 sm:p-10 border border-orange-200">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- 3 Phone Mockups (Clean Screen ready for video) -->
+          <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
+            
+            <!-- Reel 1: Pov aslab kalo diajak ngonten -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/dkv/reel-1.jpg" data-title="DKV Reel 01" data-desc="POV aslab kalo diajak ngonten - Trend Comedy">
+              <div class="phone-screen">
+                <img src="assets/projects/dkv/reel-1.jpg" alt="DKV Reel 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">POV Aslab Ngonten</p>
+            </div>
+
+            <!-- Reel 2: Outfit Check!! Mana yang paling keren? -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/dkv/reel-2.jpg" data-title="DKV Reel 02" data-desc="Outfit Check!! Mana yang paling keren? - DKV Visual Trend">
+              <div class="phone-screen">
+                <img src="assets/projects/dkv/reel-2.jpg" alt="DKV Reel 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Outfit Check DKV</p>
+            </div>
+
+            <!-- Reel 3: DKV 2026 Focus Karya -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/dkv/reel-3.jpg" data-title="DKV Reel 03" data-desc="Fokus Mengamati Karya - Lab Assistant DKV">
+              <div class="phone-screen">
+                <img src="assets/projects/dkv/reel-3.jpg" alt="DKV Reel 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Observasi Karya</p>
+            </div>
+
+          </div>
+
+          <!-- Role Description -->
+          <div class="lg:col-span-4 space-y-4">
+            <span class="text-xs font-extrabold uppercase tracking-widest text-[#EA580C] block">ROLE & EXECUTION</span>
+            <h3 class="text-2xl sm:text-3xl font-[900] text-stone-900 leading-tight">
+              as Social Media Specialist
+            </h3>
+            <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+              I work as a <strong class="text-[#EA580C]">Social Media Specialist</strong> and <strong class="text-[#EA580C]">Social Media admin</strong>, managing the overall content and activities of the Instagram account.
+            </p>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              In addition, I create <strong class="text-stone-900">content plans</strong>, handle <strong class="text-stone-900">content production (shooting and editing)</strong>, and manage <strong class="text-stone-900">content publishing</strong>.
+            </p>
+            <div class="pt-2">
+              <span class="inline-flex items-center gap-1.5 text-xs font-bold text-stone-600 bg-white px-3 py-1.5 rounded-full border border-stone-200">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#EA580C]"></i> End-to-end production
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CASE STUDY 02: PERSONAL ACCOUNT TIKTOK (Page 7 & 8) ================= -->
+  <section id="project-tiktok" class="py-16 lg:py-24 bg-[#FCFCFB] border-b border-stone-200 paper-texture">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Section Banner mirroring PDF Page 7 -->
+      <div class="bg-[#B91C1C] text-white rounded-3xl p-6 sm:p-10 mb-12 shadow-lg relative overflow-hidden">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 relative z-10">
+          <div class="flex items-center gap-4">
+            <span class="text-5xl sm:text-7xl font-[900] tracking-tighter opacity-80 italic">02</span>
+            <div>
+              <h2 class="text-2xl sm:text-4xl font-[900] tracking-tight uppercase leading-tight">
+                Promotional Strategy
+              </h2>
+              <p class="text-red-100 text-xs sm:text-sm font-semibold tracking-wider uppercase mt-1">
+                Promotional & Audience Centered
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 bg-white text-stone-900 px-5 py-2.5 rounded-full shadow-md font-bold text-xs uppercase tracking-wider">
+            <span class="w-3 h-3 rounded-full bg-red-600 animate-pulse"></span>
+            <span>PERSONAL ACC @NACCUWWA × HOSELL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description & Results Grid (Page 7) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
+        
+        <!-- Left: Text description & TikTok Account badge -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="border-l-4 border-[#B91C1C] pl-4">
+            <h3 class="text-lg font-black uppercase text-stone-900 tracking-wide">PERSONAL ACC @NACCUWWA</h3>
+            <p class="text-xs text-stone-500 font-semibold">FnB Reviews, Travel, & Places Collaboration</p>
+          </div>
+
+          <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+            My personal account, <strong class="text-stone-900">@naccuwwa</strong>, is a TikTok account that features content about FnB reviews, travel destination recommendations, and reviews of various places collab with <strong class="text-red-700">Hosell Agency</strong>. Through this platform, I generate sales from people who purchase products or visit places promoted in my videos.
+          </p>
+
+          <!-- TikTok Handle & QR Code -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-red-50 border border-red-200">
+            <div class="w-16 h-16 rounded-xl bg-white p-1 border border-red-200 shadow-sm flex items-center justify-center">
+              <img src="assets/projects/personal/qr-code.png" alt="TikTok QR Code" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <span class="text-[11px] font-bold text-red-800 uppercase block">TikTok Account</span>
+              <a href="https://tiktok.com/@naccuwwa" target="_blank" class="font-extrabold text-base text-stone-900 hover:text-[#B91C1C] flex items-center gap-1.5">
+                <i data-lucide="video" class="w-4 h-4 text-stone-900"></i>
+                @naccuwwa
+              </a>
+              <span class="text-xs text-stone-500">1.6M Likes • High conversion & foot traffic</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 4 Result Boxes (Stat Counter) -->
+        <div class="lg:col-span-6 stat-trigger">
+          <div class="mb-4">
+            <span class="inline-block bg-[#16A34A] text-white text-xs font-extrabold uppercase px-4 py-1 rounded-full shadow-sm">
+              Result
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            
+            <!-- Stat 1: 350K Views -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="350" data-suffix="K">
+                  350K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Views</p>
+            </div>
+
+            <!-- Stat 2: 7K Engagement -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="7" data-suffix="K">
+                  7K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Engagement</p>
+            </div>
+
+            <!-- Stat 3: 1.5M Sales Value -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="1.5" data-suffix="M">
+                  1.5M
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Sales Value</p>
+            </div>
+
+            <!-- Stat 4: 1.6K Followers -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="1.6" data-suffix="K">
+                  1.6K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Followers</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Phone Mockups & Role Description (Page 8) -->
+      <div class="bg-[#FFF5F5] rounded-3xl p-6 sm:p-10 border border-red-200">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- 3 Phone Mockups (Clean Screen ready for video) -->
+          <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
+            
+            <!-- Reel 1: Viral di Blok M Es Dubai Chewy! -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/personal/reel-viral.jpg" data-title="Viral FnB Review" data-desc="Viral di Blok M! Es Dubai Chewy FnB Promotional TikTok">
+              <div class="phone-screen">
+                <img src="assets/projects/personal/reel-viral.jpg" alt="Viral Es Dubai Chewy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Viral di Blok M</p>
+            </div>
+
+            <!-- Reel 2: Custom Mini Cake 50k The Harvest -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/personal/reel-custom-cake.jpg" data-title="Product Review" data-desc="Custom Mini Cake 50k - The Harvest Product Review">
+              <div class="phone-screen">
+                <img src="assets/projects/personal/reel-custom-cake.jpg" alt="Custom Mini Cake The Harvest" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Custom Mini Cake</p>
+            </div>
+
+            <!-- Reel 3: Date Idea Bounce Street -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/personal/reel-bounce-street.jpg" data-title="Place & Experience Review" data-desc="Date Idea Bounce Street - Fun Destination Recommendation">
+              <div class="phone-screen">
+                <img src="assets/projects/personal/reel-bounce-street.jpg" alt="Bounce Street Date Idea" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Bounce Street Date</p>
+            </div>
+
+          </div>
+
+          <!-- Role Description -->
+          <div class="lg:col-span-4 space-y-4">
+            <span class="text-xs font-extrabold uppercase tracking-widest text-[#B91C1C] block">ROLE & EXECUTION</span>
+            <h3 class="text-2xl sm:text-3xl font-[900] text-stone-900 leading-tight">
+              as Social Media Specialist
+            </h3>
+            <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+              I work as a <strong class="text-[#B91C1C]">Social Media Specialist</strong>, managing the overall content and activities of the TikTok account.
+            </p>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              In addition, I create <strong class="text-stone-900">content plans</strong>, handle <strong class="text-stone-900">content production (shooting and editing)</strong>, and manage <strong class="text-stone-900">content publishing</strong>.
+            </p>
+            <div class="pt-2 flex flex-wrap gap-2">
+              <span class="text-xs font-bold text-stone-600 bg-white px-3 py-1.5 rounded-full border border-stone-200">
+                #FnBReview
+              </span>
+              <span class="text-xs font-bold text-stone-600 bg-white px-3 py-1.5 rounded-full border border-stone-200">
+                #TravelVlog
+              </span>
+              <span class="text-xs font-bold text-stone-600 bg-white px-3 py-1.5 rounded-full border border-stone-200">
+                #HighConversion
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CASE STUDY 03: BAGIRASA (Page 9 & 10) ================= -->
+  <section id="project-bagirasa" class="py-16 lg:py-24 bg-white border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Section Banner mirroring PDF Page 9 -->
+      <div class="bg-[#4C1D95] text-white rounded-3xl p-6 sm:p-10 mb-12 shadow-lg relative overflow-hidden">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 relative z-10">
+          <div class="flex items-center gap-4">
+            <span class="text-5xl sm:text-7xl font-[900] tracking-tighter opacity-80 italic">03</span>
+            <div>
+              <h2 class="text-2xl sm:text-4xl font-[900] tracking-tight uppercase leading-tight">
+                Comunity Engagement
+              </h2>
+              <p class="text-purple-200 text-xs sm:text-sm font-semibold tracking-wider uppercase mt-1">
+                Comunity & Engagement
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 bg-white text-stone-900 px-5 py-2.5 rounded-full shadow-md font-bold text-xs uppercase tracking-wider">
+            <img src="assets/logos/bagirasa.png" alt="Bagirasa" class="w-6 h-6 object-contain">
+            <span>BAGIRASA COMMUNITY</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description & Results Grid (Page 9) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
+        
+        <!-- Left: Text description & TikTok Account badge -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="border-l-4 border-[#4C1D95] pl-4">
+            <h3 class="text-lg font-black uppercase text-stone-900 tracking-wide">BAGIRASA</h3>
+            <p class="text-xs text-stone-500 font-semibold">Community & Friday Food Drive</p>
+          </div>
+
+          <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+            <strong class="text-stone-900">Bagirasa</strong> is a community account that spreads kindness every Friday by sharing food and drinks with people in need on the streets. We also welcome donations from anyone who would like to contribute and be part of this movement.
+          </p>
+
+          <!-- TikTok Handle & QR Code -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-purple-50 border border-purple-200">
+            <div class="w-16 h-16 rounded-xl bg-white p-1 border border-purple-200 shadow-sm flex items-center justify-center">
+              <img src="assets/projects/bagirasa/qr-code.png" alt="Bagirasa QR Code" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <span class="text-[11px] font-bold text-purple-900 uppercase block">TikTok Community Account</span>
+              <a href="https://tiktok.com/@bagirasaa_" target="_blank" class="font-extrabold text-base text-stone-900 hover:text-[#4C1D95] flex items-center gap-1.5">
+                <i data-lucide="heart-handshake" class="w-4 h-4 text-purple-600"></i>
+                @bagirasaa_
+              </a>
+              <span class="text-xs text-stone-500">Satu Rasa Beribu Kebaikan • Jumat Berkah</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 4 Result Boxes (Stat Counter) -->
+        <div class="lg:col-span-6 stat-trigger">
+          <div class="mb-4">
+            <span class="inline-block bg-[#16A34A] text-white text-xs font-extrabold uppercase px-4 py-1 rounded-full shadow-sm">
+              Result
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            
+            <!-- Stat 1: 36K Views -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="36" data-suffix="K">
+                  36K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Views</p>
+            </div>
+
+            <!-- Stat 2: 3.1K Engagement -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="3.1" data-suffix="K">
+                  3.1K
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Engagement</p>
+            </div>
+
+            <!-- Stat 3: 500 Interactions -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="500">
+                  500
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Interactions</p>
+            </div>
+
+            <!-- Stat 4: 190 Followers -->
+            <div class="stat-box">
+              <div class="flex items-baseline justify-between mb-1">
+                <span class="text-3xl sm:text-4xl font-[900] tracking-tight stat-counter" data-target="190">
+                  190
+                </span>
+                <span class="stat-arrow text-xl">↑</span>
+              </div>
+              <p class="text-xs uppercase font-bold text-stone-400">Followers</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Phone Mockups & Role Description (Page 10) -->
+      <div class="bg-[#FAF5FF] rounded-3xl p-6 sm:p-10 border border-purple-200">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- 3 Phone Mockups (Clean Screen ready for video) -->
+          <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
+            
+            <!-- Reel 1: Jumat Berkah Berbagi Nasi -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/bagirasa/reel-1.jpg" data-title="Bagirasa Reel 01" data-desc="Jumat Berkah Berbagi Nasi & Minuman kepada pekerja jalanan">
+              <div class="phone-screen">
+                <img src="assets/projects/bagirasa/reel-1.jpg" alt="Bagirasa Reel 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Jumat Berkah Driver</p>
+            </div>
+
+            <!-- Reel 2: Jumat Berkah Trans Jawa Special Edition -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/bagirasa/reel-2.jpg" data-title="Bagirasa Reel 02" data-desc="Jumat Berkah Trans Jawa #SpecialEdition">
+              <div class="phone-screen">
+                <img src="assets/projects/bagirasa/reel-2.jpg" alt="Bagirasa Reel 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Trans Jawa Edition</p>
+            </div>
+
+            <!-- Reel 3: Senyum Penerima Kebaikan -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/bagirasa/reel-3.jpg" data-title="Bagirasa Reel 03" data-desc="Satu Rasa Beribu Senyuman - Berbagi Nasi & Minuman">
+              <div class="phone-screen">
+                <img src="assets/projects/bagirasa/reel-3.jpg" alt="Bagirasa Reel 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Berbagi Senyuman</p>
+            </div>
+
+          </div>
+
+          <!-- Role Description -->
+          <div class="lg:col-span-4 space-y-4">
+            <span class="text-xs font-extrabold uppercase tracking-widest text-[#4C1D95] block">ROLE & EXECUTION</span>
+            <h3 class="text-2xl sm:text-3xl font-[900] text-stone-900 leading-tight">
+              as Social Media Specialist
+            </h3>
+            <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+              I work as a <strong class="text-[#4C1D95]">Social Media Specialist</strong>, managing the overall content and activities of the TikTok account.
+            </p>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              In addition, I create <strong class="text-stone-900">content plans</strong>, handle <strong class="text-stone-900">content production (shooting and editing)</strong>, and manage <strong class="text-stone-900">content publishing</strong>.
+            </p>
+            <div class="pt-2">
+              <span class="inline-flex items-center gap-1.5 text-xs font-bold text-stone-600 bg-white px-3 py-1.5 rounded-full border border-stone-200">
+                <i data-lucide="heart" class="w-4 h-4 text-purple-600"></i> Social Impact & Charity
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= INTERNSHIPS (SOMESTORY & HAGIA CLEANERS) ================= -->
+  <section id="internships" class="py-16 lg:py-24 bg-[#FCFCFB] border-b border-stone-200 paper-texture">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="badge-pill-black text-[11px] py-1.5 px-4 mb-3 inline-block">PROFESSIONAL EXPERIENCE</span>
+        <h2 class="text-4xl sm:text-5xl font-[900] tracking-tight uppercase leading-none text-[#18181B]">
+          INTERNSHIP PROGRAMS
+        </h2>
+        <p class="text-stone-500 text-xs sm:text-sm mt-3">
+          Hands-on industry internships in Digital Media Production, Press Conferences, and Home Service Advertising.
+        </p>
+      </div>
+
+      <!-- Internship 1: PODCAST SOMESTORY (Page 11 & 12) -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border border-amber-200 shadow-md">
+        
+        <!-- Amber Header Banner -->
+        <div class="bg-[#F59E0B] text-stone-900 rounded-2xl p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <h3 class="text-2xl sm:text-3xl font-[900] tracking-tight uppercase leading-tight text-white">
+              Internship – Podcast Somestory
+            </h3>
+            <p class="text-amber-950 font-bold text-xs uppercase tracking-wider mt-1">
+              Head & Media Communication — 3 Month
+            </p>
+          </div>
+          <div class="w-14 h-14 rounded-full bg-white p-1 shadow flex items-center justify-center flex-shrink-0">
+            <img src="assets/projects/somestory/logo.png" alt="Somestory Logo" class="w-10 h-10 object-contain">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-10">
+          <div class="lg:col-span-8 space-y-4">
+            <div class="border-l-4 border-amber-500 pl-4">
+              <h4 class="text-base font-black uppercase text-stone-900 tracking-wide">SOMESTORY DIGITAL MEDIA</h4>
+              <p class="text-xs text-stone-500">Inspiring stories, guest interviews, daily news & press events</p>
+            </div>
+            <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+              Some Story is a podcast and digital media platform that shares inspiring stories, interviews, and current news. The account features podcast episodes, guest interviews, daily news updates, event coverage, and short-form video content for Instagram and other digital platforms.
+            </p>
+          </div>
+          <div class="lg:col-span-4 bg-amber-50 p-6 rounded-2xl border border-amber-200">
+            <span class="text-[11px] font-extrabold uppercase text-amber-800 tracking-wider block mb-1">INTERNSHIP ROLE</span>
+            <h5 class="text-lg font-black text-stone-900 leading-tight">Head of Media & Communications Division</h5>
+            <p class="text-xs text-stone-600 mt-2">
+              Managed digital publishing, coordinated production workflows, and led press coverage.
+            </p>
+          </div>
+        </div>
+
+        <!-- Press Conference Media Phones (Page 12) -->
+        <div class="bg-amber-50/70 rounded-2xl p-6 sm:p-8 border border-amber-200/80">
+          <div class="mb-6 flex items-center justify-between">
+            <div>
+              <span class="text-xs font-black uppercase tracking-widest text-amber-800">DOCUMENTATION</span>
+              <h4 class="text-xl sm:text-2xl font-[900] text-stone-900">Press Conference & Media Coverage</h4>
+            </div>
+            <span class="font-script text-amber-800 text-xl font-bold">celebrity & movie events</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <!-- Press Phone 1: Panggil Aku Ayah / Gala Premiere -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/somestory/press-1.jpg" data-title="Movie Press Conference" data-desc="Documentation of Movie Press Conference & Premiere - Somestory">
+              <div class="phone-screen">
+                <img src="assets/projects/somestory/press-1.jpg" alt="Press Conference 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Film Premiere Coverage</p>
+            </div>
+
+            <!-- Press Phone 2: Pengepungan di Bukit Duri -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/somestory/press-2.jpg" data-title="Gala Premiere & Press Tour" data-desc="Pengepungan di Bukit Duri Press Tour - Somestory Media Coverage">
+              <div class="phone-screen">
+                <img src="assets/projects/somestory/press-2.jpg" alt="Press Conference 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Joko Anwar Press Tour</p>
+            </div>
+
+            <!-- Press Phone 3: Live Podcast Studio & Talkshow -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/somestory/press-3.jpg" data-title="Podcast Talkshow & Interview" data-desc="Live Talkshow and Creator Interview Production - Somestory">
+              <div class="phone-screen">
+                <img src="assets/projects/somestory/press-3.jpg" alt="Press Conference 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Talkshow & Interview</p>
+            </div>
+          </div>
+
+          <!-- Somestory Role Notes -->
+          <div class="mt-6 pt-4 border-t border-amber-200 text-xs sm:text-sm text-stone-700 leading-relaxed">
+            <strong class="text-stone-900">Key Responsibilities:</strong> Publishing content across digital media platforms, attending press conferences to document events, and monitoring the content production process to ensure everything ran smoothly.
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Internship 2: HAGIA CLEANERS (Page 13, 14, 15) -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border border-sky-200 shadow-md">
+        
+        <!-- Blue Header Banner -->
+        <div class="bg-[#0284C7] text-white rounded-2xl p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <h3 class="text-2xl sm:text-3xl font-[900] tracking-tight uppercase leading-tight">
+              Internship – Hagia Cleaners
+            </h3>
+            <p class="text-sky-100 font-bold text-xs uppercase tracking-wider mt-1">
+              Content Creator — 4 Month
+            </p>
+          </div>
+          <div class="w-14 h-14 rounded-full bg-white p-1 shadow flex items-center justify-center flex-shrink-0">
+            <img src="assets/projects/hagia/logo.png" alt="Hagia Cleaners Logo" class="w-10 h-10 object-contain">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-10">
+          <div class="lg:col-span-8 space-y-4">
+            <div class="border-l-4 border-sky-500 pl-4">
+              <h4 class="text-base font-black uppercase text-stone-900 tracking-wide">HAGIA CLEANERS</h4>
+              <p class="text-xs text-stone-500">Complete Cleaning Services for Homes & Offices (34.1K Followers)</p>
+            </div>
+            <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+              We provide reliable and professional cleaning services for your home or office. Our team is made up of skilled and trusted cleaners who are ready to keep your space clean, fresh, and comfortable.
+            </p>
+          </div>
+          <div class="lg:col-span-4 bg-sky-50 p-6 rounded-2xl border border-sky-200">
+            <span class="text-[11px] font-extrabold uppercase text-sky-800 tracking-wider block mb-1">INTERNSHIP ROLE</span>
+            <h5 class="text-lg font-black text-stone-900 leading-tight">Content Creator Intern</h5>
+            <p class="text-xs text-stone-600 mt-2">
+              Handling the content creation process from initial research to final editing for Reels, Carousels, and Feeds.
+            </p>
+          </div>
+        </div>
+
+        <!-- Part A: Reels Content Marketing Strategy (Page 14) -->
+        <div class="mb-10 bg-sky-50/70 rounded-2xl p-6 sm:p-8 border border-sky-200/80">
+          <div class="mb-6 flex items-center justify-between">
+            <div>
+              <span class="text-xs font-black uppercase tracking-widest text-sky-800">FORMAT 01</span>
+              <h4 class="text-xl sm:text-2xl font-[900] text-stone-900">as Content Creator – Reels</h4>
+            </div>
+            <span class="font-script text-sky-800 text-xl font-bold">problem & solution reels</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <!-- Hagia Reel 1: Tamu Mau Dateng Tapi Isi Rumah Kotor -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/hagia/reel-1.jpg" data-title="Hagia Cleaning Reels 1" data-desc="Tamu Mau Dateng Tapi Isi Rumah Kotor.. Problem Solution Hook">
+              <div class="phone-screen">
+                <img src="assets/projects/hagia/reel-1.jpg" alt="Hagia Reel 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Tamu Mau Dateng</p>
+            </div>
+
+            <!-- Hagia Reel 2: Ga Nyangka Sekotor Ini! Padahal Keliatan Bersih.. -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/hagia/reel-2.jpg" data-title="Hagia Cleaning Reels 2" data-desc="Ga Nyangka Sekotor Ini! Padahal Keliatan Bersih.. Deep Cleaning Reveal">
+              <div class="phone-screen">
+                <img src="assets/projects/hagia/reel-2.jpg" alt="Hagia Reel 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Deep Clean Kasur/Sofa</p>
+            </div>
+
+            <!-- Hagia Reel 3: Kolam Renang Kotor Jadi Males Buat Main Air -->
+            <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/projects/hagia/reel-3.jpg" data-title="Hagia Cleaning Reels 3" data-desc="Kolam Renang Kotor Jadi Males Buat Main Air - Pool Service Promo">
+              <div class="phone-screen">
+                <img src="assets/projects/hagia/reel-3.jpg" alt="Hagia Reel 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-[11px] text-stone-400 mt-2 font-medium">Kolam Renang Bersih</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Part B: Feeds / Carousels Graphic Design (Page 15) -->
+        <div class="bg-stone-50 rounded-2xl p-6 sm:p-8 border border-stone-200">
+          <div class="mb-6 flex items-center justify-between">
+            <div>
+              <span class="text-xs font-black uppercase tracking-widest text-stone-500">FORMAT 02</span>
+              <h4 class="text-xl sm:text-2xl font-[900] text-stone-900">as Content Creator – Feeds & Carousel Posters</h4>
+            </div>
+            <span class="font-script text-stone-600 text-xl font-bold">educational graphic design</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+            
+            <!-- Feed Poster 1: Beberapa Spot yang Jarang Dibersihkan Di Kamar Mandi -->
+            <div class="bg-white p-3 rounded-2xl shadow-lg border border-stone-200 group cursor-pointer lightbox-trigger" data-src="assets/projects/hagia/feed-1.png" data-title="Hagia Feed Carousel" data-desc="Beberapa Spot yang Jarang Dibersihkan Di Kamar Mandi - Educational Hygiene Tips">
+              <div class="rounded-xl overflow-hidden aspect-[4/5] bg-sky-50">
+                <img src="assets/projects/hagia/feed-1.png" alt="Hagia Feed 1" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-xs font-bold text-stone-800 mt-3">Beberapa Spot yang Jarang Dibersihkan Di Kamar Mandi</p>
+            </div>
+
+            <!-- Feed Poster 2: Bulu Anabul Rontok? Bisa Jadi Penyebab Asma! -->
+            <div class="bg-white p-3 rounded-2xl shadow-lg border border-stone-200 group cursor-pointer lightbox-trigger" data-src="assets/projects/hagia/feed-2.png" data-title="Hagia Living Promo" data-desc="Bulu Anabul Rontok? Bisa Jadi Penyebab Asma! - Hagia Living Wet & Dry Cleaning">
+              <div class="rounded-xl overflow-hidden aspect-[4/5] bg-sky-50">
+                <img src="assets/projects/hagia/feed-2.png" alt="Hagia Feed 2" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+              </div>
+              <p class="text-center text-xs font-bold text-stone-800 mt-3">Bulu Anabul Rontok? Solusi Hagia Living</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= BRAND COLLABORATIONS (Page 16 - 24) ================= -->
+  <section id="brand-collaborations" class="py-16 lg:py-24 bg-white border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <!-- Top Section Banner mirroring PDF Page 16 -->
+      <div class="bg-[#F5EEDB] text-stone-900 rounded-3xl p-8 sm:p-12 text-center border border-amber-200/70 relative">
+        <span class="badge-pill-black text-[11px] py-1.5 px-4 mb-3 inline-block">TIKTOK CAMPAIGNS</span>
+        <h2 class="text-3xl sm:text-5xl font-[900] tracking-tight uppercase leading-none text-[#18181B] mb-2">
+          Brand Collaboration
+        </h2>
+        <p class="font-script text-2xl sm:text-3xl text-stone-700 font-bold">
+          On TikTok : <a href="https://tiktok.com/@naccuwwa" target="_blank" class="text-red-700 hover:underline">@naccuwwa</a>
+        </p>
+      </div>
+
+      <!-- Filter Pills for Interactive Exploration -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+        <button class="brand-pill bg-black text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider shadow-md transition-all" data-brand="all">
+          All Brands (6)
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="mejavi">
+          Mejavi Skin+
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="jjikgo">
+          JJIK GO Studio
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="damour">
+          D'amour Studio
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="twofatpanda">
+          Two Fat Panda
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="psy">
+          PSY Steamboat
+        </button>
+        <button class="brand-pill bg-stone-100 text-stone-700 hover:bg-stone-200 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all" data-brand="wonderselfie">
+          Wonder Selfie
+        </button>
+      </div>
+
+      <!-- 6 Detailed Brand Showcase Cards -->
+      <div class="space-y-12">
+        
+        <!-- 1. Mejavi Skin+ (Page 18) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="mejavi">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-amber-200 shadow-sm bg-white p-1 flex-shrink-0">
+                  <img src="assets/brands/mejavi.png" alt="Mejavi Skin+" class="w-full h-full object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">BEAUTY & SKINCARE</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">Mejavi Skin+</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                Mejaviskin+ is a local skincare brand that offers a variety of products designed to help care for and maintain healthy facial skin.
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Mockups Right -->
+            <div class="lg:col-span-7 grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-none">
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/mejavi-phone-1.jpg" data-title="Mejavi Skin+ Foam Cleanser" data-desc="Busa sebanyak ini tapi ga bikin kulit ketarik - Mejavi Skin+">
+                <div class="phone-screen">
+                  <img src="assets/brands/mejavi-phone-1.jpg" alt="Mejavi Foam" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/mejavi-phone-2.jpg" data-title="Mejavi Skin+ Moisturizer" data-desc="Mejavi Skin+ Product Showcase & Review">
+                <div class="phone-screen">
+                  <img src="assets/brands/mejavi-phone-2.jpg" alt="Mejavi Jar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. JJIK GO Studio (Page 19 & 20 - FULL SIZE PHONES + INTERACTIVE SLIDER/CAROUSEL) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="jjikgo">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-stone-300 shadow-sm bg-black p-1 flex-shrink-0">
+                  <img src="assets/brands/jjikgo.png" alt="JJIK GO Studio" class="w-full h-full object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">K-CULTURE PHOTO STUDIO</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">JJIK GO Studio</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                Inspired by the global K-culture phenomenon, JJIKGO Studio offers a Korean-style self photo experience where every moment becomes a memory. With aesthetic spaces, fun props, and signature photo frames, JJIKGO is where your moments turn into timeless photo strips.
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media & collaboration with JJIK GO Studio.
+                </p>
+              </div>
+
+              <!-- Slider hint & manual buttons -->
+              <div class="pt-2 flex items-center justify-between">
+                <span class="text-xs font-bold text-stone-500 flex items-center gap-1.5">
+                  <i data-lucide="sliders" class="w-3.5 h-3.5 text-stone-700"></i>
+                  Geser video untuk melihat (4 video)
+                </span>
+                <div class="flex items-center gap-2">
+                  <button id="jjikgo-prev" class="w-9 h-9 rounded-full bg-white hover:bg-stone-200 border border-stone-300 text-stone-900 flex items-center justify-center shadow-sm transition-all active:scale-95" aria-label="Previous Video">
+                    <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                  </button>
+                  <button id="jjikgo-next" class="w-9 h-9 rounded-full bg-black hover:bg-stone-800 text-white flex items-center justify-center shadow-sm transition-all active:scale-95" aria-label="Next Video">
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Full-Sized Phone Mockup Carousel -->
+            <div class="lg:col-span-7 relative">
+              <!-- Carousel track -->
+              <div id="jjikgo-carousel" class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 no-scrollbar items-center">
+                
+                <!-- Phone 1 (Full Size) -->
+                <div class="snap-center shrink-0 w-48 sm:w-56">
+                  <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/jjikgo-phone-1.jpg" data-title="JJIK GO Free Photobooth" data-desc="Free Photobooth! 100 Orang Pertama - Flower Wall">
+                    <div class="phone-screen">
+                      <img src="assets/brands/jjikgo-phone-1.jpg" alt="JJIKGO 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                  </div>
+                  <p class="text-center text-[11px] text-stone-500 mt-2 font-semibold">100 Orang Pertama</p>
+                </div>
+
+                <!-- Phone 2 (Full Size) -->
+                <div class="snap-center shrink-0 w-48 sm:w-56">
+                  <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/jjikgo-phone-2.jpg" data-title="JJIK GO Pose Review" data-desc="Korean Vibes & Aesthetic Space">
+                    <div class="phone-screen">
+                      <img src="assets/brands/jjikgo-phone-2.jpg" alt="JJIKGO 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                  </div>
+                  <p class="text-center text-[11px] text-stone-500 mt-2 font-semibold">Korean Vibes Aesthetic</p>
+                </div>
+
+                <!-- Phone 3 (Full Size) -->
+                <div class="snap-center shrink-0 w-48 sm:w-56">
+                  <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/jjikgo-phone-3.jpg" data-title="JJIK GO Photobooth Couple" data-desc="Korean Vibes & Vintage Style Photobooth">
+                    <div class="phone-screen">
+                      <img src="assets/brands/jjikgo-phone-3.jpg" alt="JJIKGO 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                  </div>
+                  <p class="text-center text-[11px] text-stone-500 mt-2 font-semibold">Vintage Photobooth</p>
+                </div>
+
+                <!-- Phone 4 (Full Size) -->
+                <div class="snap-center shrink-0 w-48 sm:w-56">
+                  <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/jjikgo-phone-4.jpg" data-title="JJIK GO K-Pop Photocard" data-desc="Unofficial K-Pop Photocard Display & Strips">
+                    <div class="phone-screen">
+                      <img src="assets/brands/jjikgo-phone-4.jpg" alt="JJIKGO 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                  </div>
+                  <p class="text-center text-[11px] text-stone-500 mt-2 font-semibold">K-Pop Photocard</p>
+                </div>
+
+              </div>
+
+              <!-- Dots indicator -->
+              <div class="flex items-center justify-center gap-1.5 mt-2">
+                <button class="jjikgo-dot w-6 h-2 rounded-full bg-black transition-all" aria-label="Slide 1"></button>
+                <button class="jjikgo-dot w-2 h-2 rounded-full bg-stone-300 transition-all" aria-label="Slide 2"></button>
+                <button class="jjikgo-dot w-2 h-2 rounded-full bg-stone-300 transition-all" aria-label="Slide 3"></button>
+                <button class="jjikgo-dot w-2 h-2 rounded-full bg-stone-300 transition-all" aria-label="Slide 4"></button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 3. D'amour Studio (Page 21) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="damour">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-stone-300 shadow-sm bg-white p-2 flex-shrink-0 flex items-center justify-center">
+                  <img src="assets/brands/damour.png" alt="D'amour Studio" class="w-full h-auto object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">PHOTO STUDIO</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">D’amour Studio</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                D'amour Studio is a self-photo and photobooth studio that offers fun, aesthetic, and memorable photo experiences. It mainly targets Gen Z and young adults through creative and lifestyle-focused content.
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media & collaboration with D'amour Studio.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Mockups Right -->
+            <div class="lg:col-span-7 grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-none">
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/damour-phone-1.jpg" data-title="D'amour Hidden Gem Photo Studio" data-desc="Lucu-lucu start from 20k! - Dino Costumes">
+                <div class="phone-screen">
+                  <img src="assets/brands/damour-phone-1.jpg" alt="D'amour Studio 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/damour-phone-2.jpg" data-title="D'amour Money Gun & Red Room" data-desc="Creative props & aesthetic experiences">
+                <div class="phone-screen">
+                  <img src="assets/brands/damour-phone-2.jpg" alt="D'amour Studio 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Two Fat Panda (Page 22) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="twofatpanda">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-stone-300 shadow-sm bg-white p-1 flex-shrink-0 flex items-center justify-center">
+                  <img src="assets/brands/twofatpanda.png" alt="Two Fat Panda" class="w-full h-full object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">PRIVATE DATE & ENTERTAINMENT</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">Two Fat Panda</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                Two Fat Panda is a private date spot where you can play board games, enjoy free snacks, have dinner, and watch movies together while celebrating your special moments.
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media & collaboration with Two Fat Panda.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Mockups Right -->
+            <div class="lg:col-span-7 grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-none">
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/twofatpanda-phone-1.jpg" data-title="Two Fat Panda Private Cinema" data-desc="Rayain Momen Spesial - Private Cinema & Dinner Date Gading Serpong">
+                <div class="phone-screen">
+                  <img src="assets/brands/twofatpanda-phone-1.jpg" alt="Two Fat Panda 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/twofatpanda-phone-2.jpg" data-title="Two Fat Panda Dinner Date" data-desc="Hidden Gem Gading Serpong Romantic Experience">
+                <div class="phone-screen">
+                  <img src="assets/brands/twofatpanda-phone-2.jpg" alt="Two Fat Panda 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. PSY Steamboat (Page 23) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="psy">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-stone-300 shadow-sm bg-black p-1 flex-shrink-0 flex items-center justify-center">
+                  <img src="assets/brands/psy.png" alt="PSY Steamboat" class="w-full h-full object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">RESTAURANT & FNB</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">PSY Steamboat</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                PSY is a grill and steamboat restaurant where you cook your own food (Yakiniku & Steamboat Legend di Bintaro, Start from 50k Non-AYCE).
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media & collaboration with PSY Steamboat Yakiniku.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Mockups Right -->
+            <div class="lg:col-span-7 grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-none">
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/psy-phone-1.jpg" data-title="PSY Steamboat & Yakiniku" data-desc="Yakiniku & Steamboat Legend di Bintaro - Start from 50K">
+                <div class="phone-screen">
+                  <img src="assets/brands/psy-phone-1.jpg" alt="PSY Steamboat 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/psy-phone-2.jpg" data-title="PSY Boiling Broth" data-desc="Delicious spicy broth & fresh ingredients">
+                <div class="phone-screen">
+                  <img src="assets/brands/psy-phone-2.jpg" alt="PSY Steamboat 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Wonder Selfie (Page 24) -->
+        <div class="brand-card bg-[#FAF9F5] rounded-3xl p-6 sm:p-10 border border-stone-200 shadow-sm transition-all" data-brand="wonderselfie">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Brand Info Left -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-4">
+                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-stone-300 shadow-sm bg-white p-1 flex-shrink-0 flex items-center justify-center">
+                  <img src="assets/brands/wonderselfie.png" alt="Wonder Selfie" class="w-full h-full object-contain">
+                </div>
+                <div>
+                  <span class="text-[10px] font-extrabold uppercase text-stone-400 block tracking-widest">CREATIVE PHOTOBOOTH</span>
+                  <h3 class="text-2xl font-[900] text-stone-900 uppercase">Wonder Selfie</h3>
+                </div>
+              </div>
+              <p class="text-stone-700 text-sm leading-relaxed">
+                Wonder Selfie is a photo booth spot with a wide variety of fun and cute themes, complete with custom chains and other accessories. It's also part of the Wonder Universe group.
+              </p>
+              <div class="bg-white p-4 rounded-2xl border border-stone-200">
+                <h4 class="text-xs font-black uppercase text-stone-900 mb-1">as Content Creator</h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  I helped promote their products by <strong class="text-stone-900">creating and sharing content</strong> on my personal social media & collaboration with Wonder Selfie.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Mockups Right -->
+            <div class="lg:col-span-7 grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-none">
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/wonderselfie-phone-1.jpg" data-title="Wonder Selfie Photobox" data-desc="POV Photobox di dalam mesin cuci - 8 in 1 Photobooth">
+                <div class="phone-screen">
+                  <img src="assets/brands/wonderselfie-phone-1.jpg" alt="Wonder Selfie 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+              <div class="phone-mockup group cursor-pointer lightbox-trigger" data-src="assets/brands/wonderselfie-phone-2.jpg" data-title="Wonder Selfie Fun Experience" data-desc="Cute accessories & immersive laundry theme">
+                <div class="phone-screen">
+                  <img src="assets/brands/wonderselfie-phone-2.jpg" alt="Wonder Selfie 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT & THANK YOU FOOTER (Page 25) ================= -->
+  <section id="contact" class="py-20 lg:py-28 bg-[#FCFCFB] relative overflow-hidden paper-texture">
+    
+    <!-- Lanyard hanging from top right mirroring PDF -->
+    <div class="hidden lg:block absolute -top-12 right-12 w-28 pointer-events-none opacity-90 animate-soft-float">
+      <img src="assets/common/lanyard-clip.png" alt="Lanyard Clip" class="w-full h-auto drop-shadow-md">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Polaroid Photo (Standing in Outer) -->
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="w-64 sm:w-72 polaroid-card -rotate-3 hover:rotate-0 transition-transform">
+            <div class="overflow-hidden rounded bg-stone-100 aspect-[3/4]">
+              <img src="assets/contact/polaroid-standing.jpg" alt="Najwa Outside" class="w-full h-full object-cover">
+            </div>
+            <div class="pt-3 text-center">
+              <span class="font-script text-stone-700 text-xl font-bold">ready to collaborate!</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center: Thank you & Direct Contact Links -->
+        <div class="lg:col-span-5 text-center lg:text-left space-y-6">
+          <div>
+            <h2 class="text-5xl sm:text-7xl font-[900] tracking-tight text-stone-900 leading-none lowercase">
+              thank<span class="font-normal">you!</span>
+            </h2>
+            <p class="text-stone-600 text-base sm:text-lg font-medium mt-2">
+              Looking forward to work
+            </p>
+          </div>
+
+          <!-- Contact Grid mirroring PDF Page 25 icons -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+            
+            <!-- Instagram -->
+            <a href="https://instagram.com/stnjjw" target="_blank" rel="noopener noreferrer" 
+               class="flex items-center gap-3 p-3.5 rounded-2xl bg-white border border-stone-200/90 shadow-sm hover:shadow-md hover:border-pink-500 transition-all group">
+              <div class="w-10 h-10 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                </svg>
+              </div>
+              <div class="text-left overflow-hidden">
+                <span class="text-[10px] font-bold text-stone-400 uppercase block">Instagram</span>
+                <span class="text-xs sm:text-sm font-extrabold text-stone-900 truncate block">@stnjjw</span>
+              </div>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://tiktok.com/@naccuwwa" target="_blank" rel="noopener noreferrer" 
+               class="flex items-center gap-3 p-3.5 rounded-2xl bg-white border border-stone-200/90 shadow-sm hover:shadow-md hover:border-black transition-all group">
+              <div class="w-10 h-10 rounded-xl bg-stone-100 text-stone-900 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.42a6.34 6.34 0 0 0-.86-.06 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V9.08a8.28 8.28 0 0 0 3.77.92V6.69z"/>
+                </svg>
+              </div>
+              <div class="text-left overflow-hidden">
+                <span class="text-[10px] font-bold text-stone-400 uppercase block">TikTok</span>
+                <span class="text-xs sm:text-sm font-extrabold text-stone-900 truncate block">@naccuwwa</span>
+              </div>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/6281219807779?text=Halo%20Najwa,%20saya%20melihat%20portfolio%20web%20kamu%20dan%20tertarik%20bekerjasama" target="_blank" rel="noopener noreferrer" 
+               class="flex items-center gap-3 p-3.5 rounded-2xl bg-white border border-stone-200/90 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all group">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.78 14.07c-.24.68-1.2 1.26-1.77 1.34-.52.08-1.2.11-3.69-.92-3.19-1.32-5.24-4.57-5.4-4.78-.16-.21-1.3-1.73-1.3-3.3 0-1.57.82-2.34 1.11-2.66.29-.32.63-.4.84-.4.21 0 .42.01.6.02.19.01.45-.07.7.53.26.63.89 2.16.97 2.32.08.16.13.35.03.56-.1.21-.15.35-.3.53-.15.18-.32.4-.46.54-.15.15-.31.31-.13.62.18.31.8 1.31 1.71 2.12 1.17 1.04 2.15 1.37 2.46 1.52.31.16.49.13.67-.08.19-.21.79-.92 1-1.23.21-.31.42-.26.7-.16.29.1 1.83.86 2.15 1.02.32.16.53.24.6.37.08.13.08.77-.16 1.45z"/>
+                </svg>
+              </div>
+              <div class="text-left overflow-hidden">
+                <span class="text-[10px] font-bold text-stone-400 uppercase block">WhatsApp</span>
+                <span class="text-xs sm:text-sm font-extrabold text-stone-900 truncate block">0812-1980-7779</span>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:najwamaqbullah2005@gmail.com" 
+               class="flex items-center gap-3 p-3.5 rounded-2xl bg-white border border-stone-200/90 shadow-sm hover:shadow-md hover:border-black transition-all group">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </div>
+              <div class="text-left overflow-hidden">
+                <span class="text-[10px] font-bold text-stone-400 uppercase block">Email Address</span>
+                <span class="text-[11px] sm:text-xs font-extrabold text-stone-900 truncate block">najwamaqbullah2005@gmail.com</span>
+              </div>
+            </a>
+
+          </div>
+
+          <!-- Quick Copy Action Buttons -->
+          <div class="pt-2 flex flex-wrap gap-2 justify-center lg:justify-start">
+            <button onclick="copyText('najwamaqbullah2005@gmail.com', 'Email')" class="text-xs font-semibold bg-stone-100 hover:bg-stone-200 text-stone-700 px-3.5 py-1.5 rounded-full transition-colors flex items-center gap-1.5">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy Email
+            </button>
+            <button onclick="copyText('081219807779', 'Nomor WhatsApp')" class="text-xs font-semibold bg-stone-100 hover:bg-stone-200 text-stone-700 px-3.5 py-1.5 rounded-full transition-colors flex items-center gap-1.5">
+              <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy Phone
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Polaroid Photo (Ice Cream) -->
+        <div class="lg:col-span-3 flex justify-center">
+          <div class="w-56 sm:w-64 polaroid-card rotate-3 hover:rotate-0 transition-transform">
+            <div class="overflow-hidden rounded bg-stone-100 aspect-square">
+              <img src="assets/contact/polaroid-icecream.jpg" alt="Najwa Ice Cream" class="w-full h-full object-cover">
+            </div>
+            <div class="pt-3 text-center">
+              <span class="font-script text-stone-700 text-xl font-bold">let's create magic!</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Bottom Credit -->
+      <div class="mt-20 pt-8 border-t border-stone-200 text-center text-xs text-stone-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>© 2026 Siti Najwa Maqbullah Ardiansyah. All rights reserved.</p>
+        <p class="font-medium text-stone-600">
+          Designed based on the official 2026 Social Media Specialist Portfolio
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= LIGHTBOX MODAL ================= -->
+  <div id="lightbox-modal" class="fixed inset-0 z-[100] bg-black/90 backdrop-blur-md hidden items-center justify-center p-4">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white/80 hover:text-white p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors" aria-label="Close Lightbox">
+      <i data-lucide="x" class="w-7 h-7"></i>
+    </button>
+    <div class="max-w-4xl max-h-[90vh] flex flex-col items-center">
+      <div class="relative max-h-[75vh] overflow-hidden rounded-2xl shadow-2xl bg-black">
+        <img id="lightbox-image" src="" alt="Preview" class="max-h-[75vh] w-auto object-contain">
+      </div>
+      <div class="mt-4 text-center">
+        <h4 id="lightbox-title" class="text-white text-lg font-bold"></h4>
+        <p id="lightbox-desc" class="text-stone-300 text-xs sm:text-sm mt-1 max-w-lg"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ================= TOAST NOTICE ================= -->
+  <div id="toast" class="toast-notice">
+    <i data-lucide="check" class="w-5 h-5 text-emerald-400"></i>
+    <span id="toast-message" class="text-xs sm:text-sm font-semibold">Teks berhasil disalin!</span>
+  </div>
+
+
+  <!-- Initialize Lucide Icons & App Script -->
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
