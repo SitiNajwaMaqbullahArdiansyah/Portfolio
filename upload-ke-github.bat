@@ -52,6 +52,10 @@ echo Menyiapkan file dan repository lokal...
 :: Pindah ke folder script
 cd /d "%~dp0"
 
+:: Konfigurasi identitas Git agar tidak error
+git config user.name "SitiNajwaMaqbullahArdiansyah"
+git config user.email "najwamaqbullah2005@gmail.com"
+
 :: Inisialisasi git jika belum ada
 if not exist ".git" (
     git init
@@ -74,10 +78,13 @@ echo Menambahkan file ke Git...
 git add .
 git commit -m "Deploy Siti Najwa Maqbullah Ardiansyah - Social Media Specialist Portfolio 2026"
 
+:: Hapus cache credential lama yang konflik
+echo url=https://github.com | git credential reject >nul 2>&1
+
 :: Push ke GitHub
 echo.
 echo Mengunggah (Push) file ke GitHub...
-git push -u origin main
+git push -u origin main --force
 
 if %ERRORLEVEL% neq 0 (
     color 0E
